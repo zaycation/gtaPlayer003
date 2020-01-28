@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		79E5372223DC1E50006C2862 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E5372123DC1E50006C2862 /* AppDelegate.swift */; };
+		79E5372423DC1E50006C2862 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E5372323DC1E50006C2862 /* SceneDelegate.swift */; };
+		79E5372623DC1E50006C2862 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E5372523DC1E50006C2862 /* ContentView.swift */; };
+		79E5372823DC1E55006C2862 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79E5372723DC1E55006C2862 /* Assets.xcassets */; };
+		79E5372B23DC1E55006C2862 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79E5372A23DC1E55006C2862 /* Preview Assets.xcassets */; };
+		79E5372E23DC1E55006C2862 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79E5372C23DC1E55006C2862 /* LaunchScreen.storyboard */; };
+		79E5373923DC1E55006C2862 /* gtaPlayer005Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E5373823DC1E55006C2862 /* gtaPlayer005Tests.swift */; };
+		79E5374423DC1E55006C2862 /* gtaPlayer005UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E5374323DC1E55006C2862 /* gtaPlayer005UITests.swift */; };
+		79E5375223DC22D5006C2862 /* ComingSoonPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E5375123DC22D5006C2862 /* ComingSoonPage.swift */; };
+		79E5375423DC2A6D006C2862 /* BottomPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E5375323DC2A6D006C2862 /* BottomPlayer.swift */; };
+		79E5375623DC3440006C2862 /* GTA5Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E5375523DC3440006C2862 /* GTA5Page.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		79E5373523DC1E55006C2862 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79E5371623DC1E50006C2862 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79E5371D23DC1E50006C2862;
+			remoteInfo = gtaPlayer005;
+		};
+		79E5374023DC1E55006C2862 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79E5371623DC1E50006C2862 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79E5371D23DC1E50006C2862;
+			remoteInfo = gtaPlayer005;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		79E5371E23DC1E50006C2862 /* gtaPlayer005.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gtaPlayer005.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		79E5372123DC1E50006C2862 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		79E5372323DC1E50006C2862 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		79E5372523DC1E50006C2862 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		79E5372723DC1E55006C2862 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		79E5372A23DC1E55006C2862 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		79E5372D23DC1E55006C2862 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		79E5372F23DC1E55006C2862 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79E5373423DC1E55006C2862 /* gtaPlayer005Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gtaPlayer005Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		79E5373823DC1E55006C2862 /* gtaPlayer005Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gtaPlayer005Tests.swift; sourceTree = "<group>"; };
+		79E5373A23DC1E55006C2862 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79E5373F23DC1E55006C2862 /* gtaPlayer005UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gtaPlayer005UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		79E5374323DC1E55006C2862 /* gtaPlayer005UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gtaPlayer005UITests.swift; sourceTree = "<group>"; };
+		79E5374523DC1E55006C2862 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79E5375123DC22D5006C2862 /* ComingSoonPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComingSoonPage.swift; sourceTree = "<group>"; };
+		79E5375323DC2A6D006C2862 /* BottomPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomPlayer.swift; sourceTree = "<group>"; };
+		79E5375523DC3440006C2862 /* GTA5Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GTA5Page.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79E5371B23DC1E50006C2862 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79E5373123DC1E55006C2862 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79E5373C23DC1E55006C2862 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		79E5371523DC1E50006C2862 = {
+			isa = PBXGroup;
+			children = (
+				79E5372023DC1E50006C2862 /* gtaPlayer005 */,
+				79E5373723DC1E55006C2862 /* gtaPlayer005Tests */,
+				79E5374223DC1E55006C2862 /* gtaPlayer005UITests */,
+				79E5371F23DC1E50006C2862 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		79E5371F23DC1E50006C2862 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79E5371E23DC1E50006C2862 /* gtaPlayer005.app */,
+				79E5373423DC1E55006C2862 /* gtaPlayer005Tests.xctest */,
+				79E5373F23DC1E55006C2862 /* gtaPlayer005UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79E5372023DC1E50006C2862 /* gtaPlayer005 */ = {
+			isa = PBXGroup;
+			children = (
+				79E5372123DC1E50006C2862 /* AppDelegate.swift */,
+				79E5372323DC1E50006C2862 /* SceneDelegate.swift */,
+				79E5375323DC2A6D006C2862 /* BottomPlayer.swift */,
+				79E5372523DC1E50006C2862 /* ContentView.swift */,
+				79E5375523DC3440006C2862 /* GTA5Page.swift */,
+				79E5375123DC22D5006C2862 /* ComingSoonPage.swift */,
+				79E5372723DC1E55006C2862 /* Assets.xcassets */,
+				79E5372C23DC1E55006C2862 /* LaunchScreen.storyboard */,
+				79E5372F23DC1E55006C2862 /* Info.plist */,
+				79E5372923DC1E55006C2862 /* Preview Content */,
+			);
+			path = gtaPlayer005;
+			sourceTree = "<group>";
+		};
+		79E5372923DC1E55006C2862 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				79E5372A23DC1E55006C2862 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		79E5373723DC1E55006C2862 /* gtaPlayer005Tests */ = {
+			isa = PBXGroup;
+			children = (
+				79E5373823DC1E55006C2862 /* gtaPlayer005Tests.swift */,
+				79E5373A23DC1E55006C2862 /* Info.plist */,
+			);
+			path = gtaPlayer005Tests;
+			sourceTree = "<group>";
+		};
+		79E5374223DC1E55006C2862 /* gtaPlayer005UITests */ = {
+			isa = PBXGroup;
+			children = (
+				79E5374323DC1E55006C2862 /* gtaPlayer005UITests.swift */,
+				79E5374523DC1E55006C2862 /* Info.plist */,
+			);
+			path = gtaPlayer005UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		79E5371D23DC1E50006C2862 /* gtaPlayer005 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79E5374823DC1E55006C2862 /* Build configuration list for PBXNativeTarget "gtaPlayer005" */;
+			buildPhases = (
+				79E5371A23DC1E50006C2862 /* Sources */,
+				79E5371B23DC1E50006C2862 /* Frameworks */,
+				79E5371C23DC1E50006C2862 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = gtaPlayer005;
+			productName = gtaPlayer005;
+			productReference = 79E5371E23DC1E50006C2862 /* gtaPlayer005.app */;
+			productType = "com.apple.product-type.application";
+		};
+		79E5373323DC1E55006C2862 /* gtaPlayer005Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79E5374B23DC1E55006C2862 /* Build configuration list for PBXNativeTarget "gtaPlayer005Tests" */;
+			buildPhases = (
+				79E5373023DC1E55006C2862 /* Sources */,
+				79E5373123DC1E55006C2862 /* Frameworks */,
+				79E5373223DC1E55006C2862 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79E5373623DC1E55006C2862 /* PBXTargetDependency */,
+			);
+			name = gtaPlayer005Tests;
+			productName = gtaPlayer005Tests;
+			productReference = 79E5373423DC1E55006C2862 /* gtaPlayer005Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		79E5373E23DC1E55006C2862 /* gtaPlayer005UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79E5374E23DC1E55006C2862 /* Build configuration list for PBXNativeTarget "gtaPlayer005UITests" */;
+			buildPhases = (
+				79E5373B23DC1E55006C2862 /* Sources */,
+				79E5373C23DC1E55006C2862 /* Frameworks */,
+				79E5373D23DC1E55006C2862 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79E5374123DC1E55006C2862 /* PBXTargetDependency */,
+			);
+			name = gtaPlayer005UITests;
+			productName = gtaPlayer005UITests;
+			productReference = 79E5373F23DC1E55006C2862 /* gtaPlayer005UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79E5371623DC1E50006C2862 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = zaycation;
+				TargetAttributes = {
+					79E5371D23DC1E50006C2862 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					79E5373323DC1E55006C2862 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 79E5371D23DC1E50006C2862;
+					};
+					79E5373E23DC1E55006C2862 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 79E5371D23DC1E50006C2862;
+					};
+				};
+			};
+			buildConfigurationList = 79E5371923DC1E50006C2862 /* Build configuration list for PBXProject "gtaPlayer005" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 79E5371523DC1E50006C2862;
+			productRefGroup = 79E5371F23DC1E50006C2862 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79E5371D23DC1E50006C2862 /* gtaPlayer005 */,
+				79E5373323DC1E55006C2862 /* gtaPlayer005Tests */,
+				79E5373E23DC1E55006C2862 /* gtaPlayer005UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		79E5371C23DC1E50006C2862 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79E5372E23DC1E55006C2862 /* LaunchScreen.storyboard in Resources */,
+				79E5372B23DC1E55006C2862 /* Preview Assets.xcassets in Resources */,
+				79E5372823DC1E55006C2862 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79E5373223DC1E55006C2862 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79E5373D23DC1E55006C2862 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79E5371A23DC1E50006C2862 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79E5375223DC22D5006C2862 /* ComingSoonPage.swift in Sources */,
+				79E5372223DC1E50006C2862 /* AppDelegate.swift in Sources */,
+				79E5375423DC2A6D006C2862 /* BottomPlayer.swift in Sources */,
+				79E5375623DC3440006C2862 /* GTA5Page.swift in Sources */,
+				79E5372423DC1E50006C2862 /* SceneDelegate.swift in Sources */,
+				79E5372623DC1E50006C2862 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79E5373023DC1E55006C2862 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79E5373923DC1E55006C2862 /* gtaPlayer005Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79E5373B23DC1E55006C2862 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79E5374423DC1E55006C2862 /* gtaPlayer005UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		79E5373623DC1E55006C2862 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79E5371D23DC1E50006C2862 /* gtaPlayer005 */;
+			targetProxy = 79E5373523DC1E55006C2862 /* PBXContainerItemProxy */;
+		};
+		79E5374123DC1E55006C2862 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79E5371D23DC1E50006C2862 /* gtaPlayer005 */;
+			targetProxy = 79E5374023DC1E55006C2862 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		79E5372C23DC1E55006C2862 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79E5372D23DC1E55006C2862 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		79E5374623DC1E55006C2862 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		79E5374723DC1E55006C2862 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		79E5374923DC1E55006C2862 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"gtaPlayer005/Preview Content\"";
+				DEVELOPMENT_TEAM = U3F9NUVPW6;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = gtaPlayer005/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.zaycation.gtaPlayer005;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		79E5374A23DC1E55006C2862 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"gtaPlayer005/Preview Content\"";
+				DEVELOPMENT_TEAM = U3F9NUVPW6;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = gtaPlayer005/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.zaycation.gtaPlayer005;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		79E5374C23DC1E55006C2862 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U3F9NUVPW6;
+				INFOPLIST_FILE = gtaPlayer005Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.zaycation.gtaPlayer005Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gtaPlayer005.app/gtaPlayer005";
+			};
+			name = Debug;
+		};
+		79E5374D23DC1E55006C2862 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U3F9NUVPW6;
+				INFOPLIST_FILE = gtaPlayer005Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.zaycation.gtaPlayer005Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gtaPlayer005.app/gtaPlayer005";
+			};
+			name = Release;
+		};
+		79E5374F23DC1E55006C2862 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U3F9NUVPW6;
+				INFOPLIST_FILE = gtaPlayer005UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.zaycation.gtaPlayer005UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = gtaPlayer005;
+			};
+			name = Debug;
+		};
+		79E5375023DC1E55006C2862 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U3F9NUVPW6;
+				INFOPLIST_FILE = gtaPlayer005UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.zaycation.gtaPlayer005UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = gtaPlayer005;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79E5371923DC1E50006C2862 /* Build configuration list for PBXProject "gtaPlayer005" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79E5374623DC1E55006C2862 /* Debug */,
+				79E5374723DC1E55006C2862 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79E5374823DC1E55006C2862 /* Build configuration list for PBXNativeTarget "gtaPlayer005" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79E5374923DC1E55006C2862 /* Debug */,
+				79E5374A23DC1E55006C2862 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79E5374B23DC1E55006C2862 /* Build configuration list for PBXNativeTarget "gtaPlayer005Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79E5374C23DC1E55006C2862 /* Debug */,
+				79E5374D23DC1E55006C2862 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79E5374E23DC1E55006C2862 /* Build configuration list for PBXNativeTarget "gtaPlayer005UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79E5374F23DC1E55006C2862 /* Debug */,
+				79E5375023DC1E55006C2862 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 79E5371623DC1E50006C2862 /* Project object */;
+}
